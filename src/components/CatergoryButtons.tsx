@@ -30,7 +30,7 @@ function CatergoryButtons() {
           onClick={() => router.push("/dress")}
           className={isActive("/dress") ? "bg-purple-300 text-white" : `bg-white text-black ${baseStyle}`}
         >
-          <GiAmpleDress />
+          <GiAmpleDress/>
           Плать
         </Button>
 

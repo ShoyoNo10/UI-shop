@@ -21,7 +21,7 @@ function page() {
         <CatergoryButtons />
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4 flex">
         <GoodsCard />
       </div>
     </div>

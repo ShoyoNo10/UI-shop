@@ -47,13 +47,13 @@ export default function GoodsCard() {
   if (error) return <p className="text-red-500">{error}</p>;
 
   return (
-    <div className="flex flex-wrap gap-4">
+    <div className="flex flex-wrap gap-4 justify-around">
       {products.length === 0 ? (
         <p>Бараа олдсонгүй</p>
       ) : (
         products.map((item) => (
           <div key={item._id} className="w-[155px] h-[350px]">
-            <div className="w-[155px] h-[200px] relative overflow-hidden">
+            <div className="w-[155px] h-[200px] relative overflow-hidden bg-amber-300">
               {/* <Image
                 src={item.image || "/goods1.webp"}
                 alt={item.name}
